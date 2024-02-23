@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Orbitron;
+  src: url(../Fonts/Orbitron-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Orbitron !important;
+}
+
+.container {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+// body {
+//  background-color: #5b5757;
+// }
+
+header {
+  // background-color: #57b8ff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      cursor: pointer;
+    }
+    .nav-items {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      .nav-item a {
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+          color: #fac422;
+          transition: 0.5s;
+        }
+      }
+    }
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      i {
+        color: #fff;
+        padding: 6px;
+        cursor: pointer;
+        &:hover {
+          color: #fac422;
+        }
+      }
+      button {
+        padding: 16px 32px;
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+          background-color: #fac422;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+
+main {
+  .home {
+    .home-content {
+      .colors {
+        display: flex;
+        .left-color {
+          padding: 240px 0 200px 0;
+          min-width: 50%;
+          background: #000000;
+          .left-content {
+            display: flex;
+            flex-direction: column;
+            padding-left: 60px;
+            .fire-text {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              p {
+                color: #57b8ff;
+              }
+            }
+            p {
+              padding-top: 43px;
+              padding-bottom: 53px;
+              color: #999999;
+              max-width: 560px;
+            }
+            .btns-home {
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              button:first-child {
+                background-color: #57b8ff;
+                padding: 12px 34px;
+                border: 1px solid #fff;
+                color: #fff;
+                &:hover {
+                  background: transparent;
+                  transition: 0.4s;
+                }
+              }
+              button:last-child {
+                background: transparent;
+                padding: 12px 34px;
+                color: #fff;
+                border: 1px solid transparent;
+                &:hover {
+                  background: #57b8ff;
+                  border: 1px solid #fff;
+                  transition: 0.4s;
+                }
+              }
+            }
+          }
+        }
+        .right-color {
+          padding: 240px 0 200px 0;
+          min-width: 50%;
+          background: #57b8ff;
+        }
+      }
+    }
+  }
+}
