@@ -11,7 +11,7 @@
 }
 
 .container {
-  max-width: 1460px;
+  max-width: 1340px;
   margin: 0 auto;
   padding: 0px 20px;
 }
@@ -130,6 +130,7 @@ main {
                 &:hover {
                   background: transparent;
                   transition: 0.4s;
+                  border: 1px solid transparent;
                 }
               }
               button:last-child {
@@ -203,6 +204,77 @@ main {
           &:hover svg g path:nth-child(18) {
             fill: #fac422;
             transition: 0.4s;
+          }
+        }
+      }
+    }
+  }
+  .game {
+    background-image: url(../images/game-bg.png);
+    width: 100%;
+    min-height: 1072px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .game-content {
+      .game-title {
+        display: grid;
+        place-items: center;
+        padding: 130px 0 64px 0;
+        .fire-text {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          padding-bottom: 12px;
+          p {
+            font-family: Orbitron;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #57b8ff;
+          }
+        }
+        h1 {
+          font-size: 64px;
+          font-weight: 400;
+          text-align: center;
+          max-width: 716px;
+          color: #fff;
+        }
+        p {
+          padding-top: 40px;
+          font-size: 20px;
+          font-weight: 400;
+          text-align: center;
+          color: #dfdfdfcc;
+          max-width: 698px;
+        }
+      }
+      .game-cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        .game-card {
+          max-width: 630px;
+          min-height: 212px;
+          border-radius: 20px;
+          background: #ffffff26;
+          .card-texts {
+            padding: 36px;
+            display: flex;
+            gap: 16px;
+            .text {
+              h2 {
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 42px;
+                text-align: left;
+                color: #fff;
+              }
+            }
           }
         }
       }
