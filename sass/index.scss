@@ -33,6 +33,12 @@ header {
     align-items: center;
     .logo {
       cursor: pointer;
+      a:hover {
+        svg path:nth-child(2) {
+          fill: #57b8ff;
+          transition: 0.4s;
+        }
+      }
     }
     .nav-items {
       display: flex;
@@ -96,6 +102,16 @@ main {
                 color: #57b8ff;
               }
             }
+            h5 {
+              color: #fff;
+              font-size: 72px;
+              font-weight: 400;
+              line-height: 86px;
+              span {
+                display: flex;
+                flex-direction: column;
+              }
+            }
             p {
               padding-top: 43px;
               padding-bottom: 53px;
@@ -134,6 +150,60 @@ main {
           padding: 240px 0 200px 0;
           min-width: 50%;
           background: #57b8ff;
+        }
+      }
+    }
+  }
+  .our {
+    background: #fdd04a;
+    .our-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      .title {
+        display: grid;
+        place-items: center;
+        padding: 128px 0px;
+        h1 {
+          font-size: 48px;
+          font-weight: 400;
+        }
+        img {
+          max-width: 292px;
+          padding-bottom: 27px;
+        }
+        p {
+          text-align: center;
+          max-width: 576px;
+        }
+      }
+      .logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 130px;
+        .our-logo {
+          &:hover svg g path:nth-child(3),
+          &:hover svg g path:nth-child(4),
+          &:hover svg g path:nth-child(5),
+          &:hover svg g path:nth-child(6),
+          &:hover svg g path:nth-child(7),
+          &:hover svg g path:nth-child(8),
+          &:hover svg g path:nth-child(9),
+          &:hover svg g path:nth-child(10),
+          &:hover svg g path:nth-child(11),
+          &:hover svg g path:nth-child(12),
+          &:hover svg g path:nth-child(13),
+          &:hover svg g path:nth-child(14),
+          &:hover svg g path:nth-child(15),
+          &:hover svg g path:nth-child(16),
+          &:hover svg g path:nth-child(17),
+          &:hover svg g path:nth-child(18) {
+            fill: #fac422;
+            transition: 0.4s;
+          }
         }
       }
     }

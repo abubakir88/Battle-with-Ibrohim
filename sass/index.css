@@ -30,6 +30,10 @@ header nav {
 header nav .logo {
   cursor: pointer;
 }
+header nav .logo a:hover svg path:nth-child(2) {
+  fill: #57b8ff;
+  transition: 0.4s;
+}
 header nav .nav-items {
   display: flex;
   align-items: center;
@@ -90,6 +94,16 @@ main .home .home-content .colors .left-color .left-content .fire-text {
 main .home .home-content .colors .left-color .left-content .fire-text p {
   color: #57b8ff;
 }
+main .home .home-content .colors .left-color .left-content h5 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86px;
+}
+main .home .home-content .colors .left-color .left-content h5 span {
+  display: flex;
+  flex-direction: column;
+}
 main .home .home-content .colors .left-color .left-content p {
   padding-top: 43px;
   padding-bottom: 53px;
@@ -126,4 +140,41 @@ main .home .home-content .colors .right-color {
   padding: 240px 0 200px 0;
   min-width: 50%;
   background: #57b8ff;
+}
+main .our {
+  background: #fdd04a;
+}
+main .our .our-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+main .our .our-content .title {
+  display: grid;
+  place-items: center;
+  padding: 128px 0px;
+}
+main .our .our-content .title h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+main .our .our-content .title img {
+  max-width: 292px;
+  padding-bottom: 27px;
+}
+main .our .our-content .title p {
+  text-align: center;
+  max-width: 576px;
+}
+main .our .our-content .logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 130px;
+}
+main .our .our-content .logos .our-logo:hover svg g path:nth-child(3), main .our .our-content .logos .our-logo:hover svg g path:nth-child(4), main .our .our-content .logos .our-logo:hover svg g path:nth-child(5), main .our .our-content .logos .our-logo:hover svg g path:nth-child(6), main .our .our-content .logos .our-logo:hover svg g path:nth-child(7), main .our .our-content .logos .our-logo:hover svg g path:nth-child(8), main .our .our-content .logos .our-logo:hover svg g path:nth-child(9), main .our .our-content .logos .our-logo:hover svg g path:nth-child(10), main .our .our-content .logos .our-logo:hover svg g path:nth-child(11), main .our .our-content .logos .our-logo:hover svg g path:nth-child(12), main .our .our-content .logos .our-logo:hover svg g path:nth-child(13), main .our .our-content .logos .our-logo:hover svg g path:nth-child(14), main .our .our-content .logos .our-logo:hover svg g path:nth-child(15), main .our .our-content .logos .our-logo:hover svg g path:nth-child(16), main .our .our-content .logos .our-logo:hover svg g path:nth-child(17), main .our .our-content .logos .our-logo:hover svg g path:nth-child(18) {
+  fill: #fac422;
+  transition: 0.4s;
 }/*# sourceMappingURL=index.css.map */
