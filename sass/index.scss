@@ -11,7 +11,7 @@
 }
 
 .container {
-  max-width: 1340px;
+  max-width: 1460px;
   margin: 0 auto;
   padding: 0px 20px;
 }
@@ -226,13 +226,11 @@ main {
           gap: 8px;
           padding-bottom: 12px;
           p {
-            font-family: Orbitron;
             font-size: 16px;
             font-weight: 400;
             line-height: 16px;
-            letter-spacing: 0em;
-            text-align: center;
             color: #57b8ff;
+            padding-top: 10px;
           }
         }
         h1 {
@@ -286,6 +284,57 @@ main {
               max-width: 515.28px;
               padding-left: 52px;
             }
+          }
+        }
+      }
+    }
+  }
+  .era {
+    background-color: #030303;
+    .era-content {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 86px 0;
+      .era-text {
+        .fire-text {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          p {
+            color: #57b8ff;
+            padding-top: 50px;
+          }
+        }
+        h1 {
+          font-size: 64px;
+          font-weight: 400;
+          line-height: 74px;
+          text-align: left;
+          color: #fff;
+          max-width: 684px;
+          padding: 12px 0 38px 0;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          max-width: 721px;
+          color: #dfdfdfcc;
+          padding-bottom: 54px;
+        }
+        button {
+          border: none;
+          color: #fff;
+          background-color: #57b8ff;
+          padding: 21px 34px;
+          font-size: 18px;
+          border: 1px solid #57b8ff;
+          &:hover {
+            background-color: transparent;
+            border: 1px solid #fff;
+            transition: 0.4s;
           }
         }
       }
